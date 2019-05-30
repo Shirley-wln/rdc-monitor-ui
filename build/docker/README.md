@@ -1,0 +1,1 @@
+docker run -p 8080:8080 --name rdc-monitor-ui  -e IMANAGER_API_SERVER=http://127.0.0.1:8390 -e IMANAGER_USERNAME=admin -e IMANAGER_PASSWORD=admin  -d  supermap/rdc-monitor-ui

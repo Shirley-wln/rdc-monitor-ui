@@ -1,0 +1,12 @@
+{
+  "name": "rdc-monitor-ui",
+  "version": "1.0.0",
+  "main": "rdc-monitor-ui.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,25 @@
+<assembly>
+	<id>frontend</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>true</includeBaseDirectory>
+	<fileSets>
+		<fileSet>
+			<outputDirectory>/</outputDirectory>
+			<directory>../../dist</directory>
+		</fileSet>
+		<fileSet>
+			<outputDirectory>node_modules</outputDirectory>
+			<directory>./node_modules</directory>
+		</fileSet>
+		<fileSet>
+			<outputDirectory>/</outputDirectory>
+			<directory>/</directory>
+			<includes>
+				<include>startup.js</include>
+				<include>startup.bat</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+</assembly>
