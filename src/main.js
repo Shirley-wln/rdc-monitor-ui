@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-import { Card, Badge, List, Layout } from "ant-design-vue";
+import { Card, Badge, List, Layout, Checkbox } from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";
 // import axios from "axios";
 
@@ -9,6 +9,7 @@ Vue.use(Card);
 Vue.use(Badge);
 Vue.use(List);
 Vue.use(Layout);
+Vue.use(Checkbox);
 
 // axios.defaults.baseURL = "/";
 // global.axios = axios;
